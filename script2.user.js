@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Floor Trash Last Petal & Auto Trasher
+// @name         Florr.io Trash Last Petal & Auto Trasher
 // @version      1
 // @author       woold#2808
 // @match        https://florr.io/*
