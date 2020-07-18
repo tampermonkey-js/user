@@ -6,5 +6,5 @@ for (var i = 1; i <= l; i++) {
 }
 l = mobs.length;
 for (var i = 1; i <= l; i++) {
-  localStorage["mob"+i] = gallery[i-1];
+  localStorage["mob_"+i] = gallery[i-1];
 }
