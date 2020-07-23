@@ -16,8 +16,13 @@ if (!GM_getValue("trashPetalList")) {
 
 function showList() {
     var listText = "";
+    var count = 0;
     for (var val in GM_getValue("trashPetalList")) {
+        count++;
         listText += GM_getValue("trashPetalList")[val]+": "+val+"  ";
+    }
+    if (count == 32) {
+        alert("congrats YOBA you've discovered all petals! Take a screenshot of the list and send it to me pls :D");
     }
     listText = listText.trim();
     if (!!listText) {
